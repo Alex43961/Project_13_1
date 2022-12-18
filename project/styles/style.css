@@ -15,7 +15,9 @@ li {
 
 .header {
 	background: var(--primary-bg);
-	height: 100px;
+	color: var(--primary-color);
+	font-size: var(--font-size-l);
+	height: 80px;
 
 }
 
@@ -31,14 +33,14 @@ li {
 }
 
 .nav-items {
-	width: 600px;
+	width: 300px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
 
 .main {
-	background: rgb(32, 104, 128);
+	background: var(--secondary-bg);
 	padding-top: var(--padding-xl);
 }
 
@@ -51,4 +53,17 @@ li {
 .img__main {
 	width: 450px;
 	height: 450px;
+}
+.footer {
+	background: var(--primary-bg);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav__footer {
+	width: 120px;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
