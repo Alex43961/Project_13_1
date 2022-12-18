@@ -13,10 +13,14 @@ li {
 	list-style-type: none;
 }
 
+body {
+	font-family: var(--ff-primary);
+}
+
 .header {
 	background: var(--primary-bg);
 	color: var(--primary-color);
-	font-size: var(--font-size-l);
+	font-size: var(--font-size-m);
 	height: 80px;
 
 }
@@ -54,15 +58,38 @@ li {
 	width: 450px;
 	height: 450px;
 }
+
+.table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: var(--font-size-m);
+}
+
+th,
+td {
+	text-align: start;
+	border-bottom: solid 1px #fff;
+	height: 40px;
+}
+
+.col {
+	display: flex;
+	justify-items: start;
+	align-items: baseline;
+	flex-direction: column;
+}
+
 .footer {
 	background: var(--primary-bg);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	height: 70px;
 }
+
 .nav__footer {
 	width: 120px;
-	height: 50px;
+
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
